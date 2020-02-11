@@ -1,0 +1,134 @@
+@font-face {
+  font-family: alte haas bold;
+  src: url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff) format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: alte haas reg;
+  src: url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff)
+      format('woff');
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: alte haas bold;
+  font-size: 4.8rem;
+  white-space: pre-line;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 6rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.intro {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  width: 58rem;
+  margin-top: 3rem;
+}
+
+.numberone {
+  font-family: alte haas bold;
+  color: #ff4338;
+  font-size: 12rem;
+}
+
+.numbertext {
+  font-family: alte haas reg;
+  font-size: 1.6rem;
+  width: 16rem;
+  border-top: 0.8rem solid #ff4338;
+  padding-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1.2rem;
+  background-color: white;
+}
+
+.opsomming {
+  margin-top: 5rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.number1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url('./assets/greydots1.png');
+  background-repeat: no-repeat;
+}
+
+.number2 {
+  display: flex;
+  align-items: flex-end;
+  background-image: url('./assets/greydots1.png');
+  background-repeat: no-repeat;
+}
+
+.number3 {
+  display: flex;
+  align-items: flex-end;
+  background-image: url('./assets/greydots1.png');
+  background-repeat: no-repeat;
+}
+
+.number4 {
+  display: flex;
+  align-items: flex-end;
+  background-image: url('./assets/greydots1.png');
+  background-repeat: no-repeat;
+  border-bottom: 0.8rem solid #ff4338;
+}
+
+.numbertext1 {
+  font-family: alte haas reg;
+  font-size: 1.6rem;
+  width: 16rem;
+  background-color: white;
+  margin-left: 2rem;
+}
+
+.numbertext2 {
+  font-family: alte haas reg;
+  font-size: 1.6rem;
+  width: 16rem;
+  border-left: 0.8rem solid #ff4338;
+  padding-left: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1.4rem;
+  background-color: white;
+}
+
+.numberthree {
+  font-family: alte haas bold;
+  color: #ff4338;
+  font-size: 12rem;
+  border-bottom: 0.8rem solid #ff4338;
+}
+
+.numbertext4 {
+  font-family: alte haas reg;
+  font-size: 1.6rem;
+  width: 16rem;
+  background-color: white;
+  margin-left: 2rem;
+  margin-bottom: 1.4rem;
+}

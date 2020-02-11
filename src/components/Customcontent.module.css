@@ -1,0 +1,149 @@
+@font-face {
+  font-family: alte haas bold;
+  src: url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff) format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: alte haas reg;
+  src: url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff)
+      format('woff');
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.welcomtitle {
+  font-family: alte haas bold;
+  height: 51.1rem;
+  font-size: 6rem;
+  width: 60rem;
+  margin-left: 8rem;
+
+  padding-top: 10rem;
+  z-index: -1;
+  position: absolute;
+  background-image: url('./assets/dotcirclegreybg2.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.artistcontainer {
+  background-color: white;
+  border: 1rem solid #ff4338;
+  width: 73rem;
+  padding: 2rem;
+  position: absolute;
+  z-index: -1;
+  margin: 0;
+  top: 50%;
+  left: 15%;
+}
+
+.artist {
+  color: #ff4338;
+  font-family: alte haas bold;
+  font-size: 4.8rem;
+  margin-top: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.production {
+  font-family: alte haas reg;
+  font-size: 3.6rem;
+  text-transform: capitalize;
+}
+
+.description {
+  font-family: helvetica;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  line-height: 2.2rem;
+}
+
+.eventimg {
+  margin-left: 70rem;
+}
+
+.buscontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttoncontainer {
+  margin-top: 22rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-right: 10rem;
+  margin-left: 15rem;
+}
+
+.buybutton {
+  background-color: #ff4338;
+  padding: 2rem 10rem;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.4rem;
+}
+
+.bustrackcontainer {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.bustrackercontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leavetext {
+  font-family: alte haas reg;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bold {
+  font-family: alte haas bold;
+}
+
+.freebustitle {
+  font-family: alte haas bold;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  color: #fd4539;
+  margin-top: 10rem;
+}
+
+.arrivetext {
+  font-family: alte haas reg;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.time {
+  font-family: alte haas bold;
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.bus {
+  width: 43rem;
+  margin-top: 7rem;
+}

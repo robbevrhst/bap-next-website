@@ -1,0 +1,89 @@
+@font-face {
+  font-family: alte haas bold;
+  src: url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff) format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: alte haas reg;
+  src: url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff)
+      format('woff');
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #ff4338;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+
+  transform: skewY(2deg);
+  margin-top: 25rem;
+  height: 45rem;
+}
+
+.lines {
+  position: absolute;
+  z-index: 1;
+  margin-left: -10rem;
+}
+
+.skew {
+  height: 49rem;
+  transform: skewY(-2deg);
+}
+
+.title {
+  font-family: alte haas bold;
+  color: white;
+  font-size: 4.8rem;
+}
+
+.content {
+  display: flex;
+  align-items: flex-end;
+  margin-top: -4rem;
+}
+
+.subtitle {
+  font-size: 2.4rem;
+  font-family: alte haas bold;
+  color: white;
+  margin-top: 2rem;
+}
+
+.description {
+  color: white;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  width: 85rem;
+  margin-top: 1.2rem;
+}
+
+.sightseeingimg {
+  position: absolute;
+}
+.contentcontainer {
+  margin-left: 4rem;
+}
+
+.button {
+  background-color: white;
+  font-family: alte haas reg;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  margin-left: 60rem;
+  margin-top: 4rem;
+  position: absolute;
+}
