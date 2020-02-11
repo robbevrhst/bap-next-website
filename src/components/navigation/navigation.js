@@ -8,7 +8,7 @@ const navigation = () => {
       <div>
         <Logo />
       </div>
-      <ul>
+      <ul className={styles.languageselector}>
         <a href="/" className={[styles.language, styles.selected].join(' ')}><li>NL</li></a>
         <a href="/" className={styles.language}><li>FR</li></a>
         <a href="/" className={styles.language}><li>EN</li></a>

@@ -1,7 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.languageselector {
+  display: flex;
+  justify-content: space-around;
+  width: 14rem;
+}
+
 .language {
   position: relative;
   display: table;
   cursor: pointer;
+  font-style: AlteHaasGroteskBold;
 }
 
 .language:after {
