@@ -68,6 +68,12 @@ html {
   line-height: 2.2rem;
 }
 
+.datecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .eventimg {
   margin-left: 70rem;
 }
@@ -147,4 +153,10 @@ html {
 .bus {
   width: 43rem;
   margin-top: 7rem;
+}
+
+.date {
+  font-family: alte haas reg;
+  font-size: 1.8rem;
+  margin-top: 5rem;
 }

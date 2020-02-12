@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import styles from './Customcontent.module.css';
-import customimg from './assets/eventimg.png';
 
 import eventimg1 from './assets/eventimg1.png';
 import eventimg2 from './assets/eventimg2.png';
@@ -16,12 +15,24 @@ const Customcontent = items => {
   let { id } = useParams();
   console.log(items);
 
+  let img = [];
+
   db.ref(id).on('value', snapshot => {
     items = snapshot.val();
     console.log(custom);
     custom.push(items);
   });
-  //console.log(custom[0]);
+
+  if (custom[0].img === 'eventimg1') {
+    console.log('ik ga in de image');
+    img.push('/static/media/eventimg1.7fdedc35.png');
+  } else if (custom[0].img === 'eventimg2') {
+    img.push('/static/media/eventimg2.38cb34d6.png');
+  } else if (custom[0].img === 'eventimg3') {
+    img.push('/static/media/eventimg3.b3dc49a4.png');
+  }
+
+  console.log(img);
   //<h1>{custom[0].title}</h1>
   return (
     <div>
@@ -30,13 +41,17 @@ const Customcontent = items => {
       </h1>
 
       <div className={styles.artistcontainer}>
-        <h3 className={styles.production}>{custom[0].production}</h3>
-        <h2 className={styles.artist}>{custom[0].title}</h2>
-
+        <div className={styles.datecontainer}>
+          <div>
+            <h3 className={styles.production}>{custom[0].production}</h3>
+            <h2 className={styles.artist}>{custom[0].title}</h2>
+          </div>
+          <span className={styles.date}>{custom[0].date}</span>
+        </div>
         <p className={styles.description}>{custom[0].description}</p>
       </div>
 
-      <img className={styles.eventimg} src={eventimg1} alt="" />
+      <img className={styles.eventimg} src={img[0]} alt="" />
       <div className={styles.buscontainer}>
         <div className={styles.buttoncontainer}>
           <a className={styles.buybutton} href="">

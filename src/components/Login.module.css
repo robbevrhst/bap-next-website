@@ -1,0 +1,92 @@
+@font-face {
+  font-family: alte haas bold;
+  src: url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff) format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: alte haas reg;
+  src: url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff)
+      format('woff');
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  background-image: url('./assets/loginbg.png');
+}
+
+.title {
+  font-family: alte haas bold;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+}
+
+.title2 {
+  font-family: alte haas bold;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  padding: 3rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 42.6rem;
+  height: 10rem;
+  border: 1rem solid #ff4338;
+  font-family: alte haas reg;
+  font-size: 6.4rem;
+  text-align: center;
+  letter-spacing: 2rem;
+  outline: none;
+  margin-top: 2rem;
+}
+
+.button {
+  background-color: #ff4338;
+  border: none;
+  color: white;
+  font-family: alte haas bold;
+  font-size: 4.8rem;
+  height: 10rem;
+  width: 13.5rem;
+  margin-top: 2rem;
+}
+
+.textcontainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-left: 60rem;
+  margin-top: 2rem;
+}
+
+.inputcontainer {
+  background-color: white;
+  padding: 3rem;
+  margin-top: 17rem;
+}
+
+.img {
+  margin-left: -30rem;
+  position: absolute;
+  margin-top: 5rem;
+}
