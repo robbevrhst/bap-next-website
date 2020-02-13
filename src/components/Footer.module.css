@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #ff4338;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.img {
+  margin-left: 2rem;
+}
+
+.img2 {
+  margin-right: 2rem;
+}

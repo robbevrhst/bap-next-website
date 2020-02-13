@@ -13,21 +13,23 @@ const Sightseeingcomponent = items => {
           </div>
           <div className={styles.contentcontainer}>
             <h1 className={styles.title}>
-              Hier is jullie engagerende <br />
-              persoonlijke dagtrip
+              Had u daar nog graag iets
+              <br /> voor te eten bij?
             </h1>
-            <h2 className={styles.subtitle}>De abdij van Vaucelles</h2>
+            <h2 className={styles.subtitle}>Dinner@next</h2>
             <p className={styles.description}>
-              De cisterciënzerabdij van Vaucelles, gelegen in de vallei van de
-              Hoge Schelde, in Les Rues-des-Vignes, werd gesticht in de 12e eeuw
-              door Saint-Bernard. Deze abdij is bijzonder omdat ze de grootste
-              cisterciënzer kapittelzaal van Europa bezit. De bezoekers kunnen
-              verder, bovenop dit juweeltje, de monnikenzaal, het auditorium, de
-              heilige doorgang en de abdijtuin, versierd met een groentetuin,
-              een boomgaard en een rozentuin, ontdekken.
+              Een festival wordt des te fascinerender wanneer je de ervaring
+              deelt met anderen. Schuif mee aan tafel bij de medetoeschouwers
+              van over de grens. Een gastheer en/of - vrouw nodigen je voor of
+              na de voorstelling uit voor een zelfgekozen huisbereid diner. Als
+              bedanking kies je wat je meebrengt, zoals een aperitief of een
+              fles wijn. <br />
+              <br />
+              Wil je graag zelf gastvrouw of -heer zijn en toeschouwers rond
+              jouw tafel verwelkomen?
             </p>
             <a className={styles.button} href="">
-              Meer info over de abdij
+              Word zelf gastheer/vrouw
             </a>
           </div>
         </div>

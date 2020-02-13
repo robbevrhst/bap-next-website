@@ -1,0 +1,123 @@
+@font-face {
+  font-family: alte haas bold;
+  src: url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaas/altehaasgroteskbold-webfont.woff) format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: alte haas reg;
+  src: url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff2)
+      format('woff2'),
+    url(./assets/fonts/altehaasreg/altehaasgroteskregular-webfont.woff)
+      format('woff');
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 10rem;
+}
+
+.contentcontainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.textcontainer {
+  width: 65rem;
+  margin-top: 5rem;
+}
+
+.h1 {
+  font-family: alte haas bold;
+  font-size: 6rem;
+  text-align: right;
+  margin-right: 4rem;
+  line-height: 7rem;
+}
+
+.waveimg {
+  position: absolute;
+}
+
+.title2 {
+  color: #ff4338;
+  font-family: alte haas bold;
+  font-size: 3.6rem;
+  margin-top: 1.3rem;
+}
+
+.info {
+  margin-top: 3rem;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+.subtitle {
+  font-family: alte haas reg;
+  font-size: 2.4rem;
+  margin-top: 3rem;
+}
+
+.shedulecontainer {
+  border: 1rem solid #ff4338;
+  padding: 3rem;
+  position: absolute;
+  background-color: white;
+  margin-top: 35rem;
+  margin-left: 20rem;
+}
+
+.planningtitle {
+  color: #ff4338;
+  font-family: alte haas reg;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.buybutton {
+  background-color: #ff4338;
+  color: white;
+  font-family: helvetica;
+  font-size: 1.4rem;
+  padding: 1rem 15rem;
+  margin-top: 2rem;
+}
+
+.timecontainer {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.timeslot {
+  font-family: alte haas reg;
+  font-size: 1.8rem;
+}
+
+.timeinfotext {
+  font-family: alte haas reg;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  padding: 0;
+  color: black;
+}
+
+.dot {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.bustrackercontainer {
+}
